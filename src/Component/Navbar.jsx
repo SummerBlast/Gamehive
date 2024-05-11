@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoCloseSharp } from "react-icons/io5";
+import { Link } from 'react-router-dom';
+import Content4 from './Content4';
+
 function Navbar() {
 
   const[showIcon,setIcon]=useState(false);
@@ -32,7 +35,7 @@ function Navbar() {
 
                 <div className=' nav text-white mt-2'>
                     <ul className={'hidden md:flex gap-5 roboto-regular-italic mt-2'}>
-                        <li className='hover:text-red-500 py-2 md:py-0   mt-9 md:mt-0  ' >STORE</li>
+                        <li className='hover:text-red-500 py-2 md:py-0   mt-9 md:mt-0  ' ><Link to={Content4}>STORE</Link></li>
                         <li className='hover:text-red-500 py-2 md:py-0 '>ABOUT</li>
                         <li className='hover:text-red-500 py-2 md:py-0 '>COMMUNITY</li>
                         <li className='hover:text-red-500 py-2 md:py-0 '>SUPPORT</li>

@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    background: -webkit-linear-gradient(0deg, #fa4242 0%, #f1058f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .madimi-one-regular1 {
+    font-family: "Madimi One", sans-serif;
+    font-weight: bolder;
+    
+    background: -webkit-linear-gradient(0deg, #fa4242 0%, #f1058f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .madimi-one {
+    font-family: "Madimi One", sans-serif;
+    font-weight: bolder;
+   
+    
+  }
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  .bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+           
+  .btn-grad {
+    background-image: linear-gradient(to right,  #da0707 0%, #ff0084  100%);
+    
+    
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+               
+    
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+          
+ .img1{
+    height: 550px;
+ }
+ .space-grotesk {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }

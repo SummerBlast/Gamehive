@@ -2,7 +2,7 @@ import React from 'react'
 
 function Content4() {
   return (
-    <div className='mt-32'>Content4</div>
+    <div className='bg-white'>Content45</div>
   )
 }
 
